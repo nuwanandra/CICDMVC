@@ -1,11 +1,11 @@
-﻿using Entity;
+﻿
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MVCApp1.DataAccess;
 
 namespace MVCApp1.Controllers
 {
-    
+
     public class PersonController : Controller
     {
 

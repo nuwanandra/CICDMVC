@@ -3728,16 +3728,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
-      },
-      "Entity/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Entity.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Entity.dll": {}
-        }
       }
     }
   },
@@ -10686,16 +10676,10 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
-    },
-    "Entity/1.0.0": {
-      "type": "project",
-      "path": "../Entity/Entity.csproj",
-      "msbuildProject": "../Entity/Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Entity >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.25",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.25",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.25",
@@ -10733,11 +10717,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "D:\\Demo\\DP-P-DSAA-I-I-Entities\\BasicsSL\\MVC\\Entity\\Entity.csproj": {
-              "projectPath": "D:\\Demo\\DP-P-DSAA-I-I-Entities\\BasicsSL\\MVC\\Entity\\Entity.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

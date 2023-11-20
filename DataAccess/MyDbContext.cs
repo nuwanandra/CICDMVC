@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Entity;
+//using Entity;
 
 namespace MVCApp1.DataAccess
 {
